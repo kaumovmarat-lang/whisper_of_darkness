@@ -5,6 +5,8 @@ using System.Numerics;
 using System.Xml.Linq;
 using рпг;
 
+Directory.SetCurrentDirectory(AppContext.BaseDirectory);
+
 Console.WriteLine("Инструкция:\nУправление:\n\tВ основном путем ввода чисел\n\tХодьба - стрелочки/WASD\n\tВзаимодействие - f\n! РАЗВЕРНИТЕ ИГРУ ПОЛНОСТЬЮ ЧЕРЕЗ КВАДРАТИК СПРАВА СВЕРХУ !");
 Console.ReadKey();
 //МУЗЫКА
